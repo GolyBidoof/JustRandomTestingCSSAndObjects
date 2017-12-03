@@ -1,0 +1,60 @@
+* { margin:0; padding:0; } /* to remove the top and left whitespace */
+
+html, body { 
+    width:100%; 
+    height:100%; 
+    font-family: 'Roboto', sans-serif;
+
+}
+
+canvas { display:block; } /* To remove the scrollbars */
+
+
+/* to show the canvas bounds */
+canvas {
+    background: rgb(95, 21, 214);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.buttun {
+    font-size: 2vw;
+    width: 49%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    height: 10%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
+    background-color: rgb(114, 37, 214);
+    transition: 0.5s;
+}
+
+.buttun:hover {
+    background-color: rgb(149, 67, 255);
+}
+
+.buttonContainer {
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+.UI {
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#value {
+    
+    margin: auto; 
+    position: relative;
+    font-size: 10vw;
+    text-shadow:
+    -0.1vw -0.1vw 0 rgb(255, 255, 255),
+    0.1vw -0.1vw 0 rgb(255, 255, 255),
+    -0.1vw 0.1vw 0 rgb(255, 255, 255),
+    0.1vw 0.1vw 0 rgb(255, 255, 255);  
+}
